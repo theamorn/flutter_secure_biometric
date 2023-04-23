@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
 
     setState(() {
-      state = 'saved key succeed with';
+      state = 'saved key succeed';
     });
   }
 
@@ -152,6 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
       });
       // Use accessToken into your header
       // And don't forget that this accessToken must be restricted to some features
+      // final seedKEy = key[1]; will use for other encrypt/decrypt for response
     }
   }
 
